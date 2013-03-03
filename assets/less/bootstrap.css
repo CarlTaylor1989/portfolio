@@ -4947,7 +4947,7 @@ h1.intro_text {
   font-size: 36px;
   color: #234874;
   text-shadow: 0 -1px 1px #000000, 1px 0px 1px #B8CDE7;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 h2.intro_subtext {
   color: #b8cde7;
@@ -4975,4 +4975,7 @@ h2.intro_subtext {
   font-size: 26px;
   color: #7e2828;
   margin: 0;
+}
+.head_marg {
+  margin-bottom: 30px;
 }
