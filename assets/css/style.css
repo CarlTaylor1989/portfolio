@@ -1,0 +1,37 @@
+h1.intro_text {
+  font-family: Contra;
+  font-size: 36px;
+  color: #234874;
+  text-shadow: 0 -1px 1px #000000, 1px 0px 1px #B8CDE7;
+  margin: 0 0 10px 0;
+}
+h2.intro_subtext {
+  color: #b8cde7;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-family: ContraI;
+  line-height: 22px;
+}
+#main_box {
+  background: url(../img/main_top.png) top left repeat-x;
+  height: auto;
+  background-color: #daddca;
+  margin: 5px 0 0 0;
+  border-bottom: 4px solid #3f6482;
+  padding-bottom: 20px;
+}
+#portfolio {
+  padding-top: 20px;
+}
+#portfolio h3 {
+  font-family: Contra;
+  font-size: 26px;
+  color: #7e2828;
+  margin: 0;
+}
+.head_marg {
+  margin-bottom: 30px;
+}

@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="assets/less/bootstrap.css">
 <link href="tweet/jquery.tweet.css" media="all" type="text/css" rel="stylesheet" />
 <link href="assets/less/instantvalidation.css" media="screen" type="text/css" rel="stylesheet" />
+<link href="assets/css/style.css" media="screen" type="text/css" rel="stylesheet">
 <script src="assets/js/libs/modernizr-2.5.3.js"></script>
 <script src="assets/js/jquery-1.5.1.min.js" type="text/javascript"></script>
 <script src="assets/js/jquery.orbit-1.2.3.js" type="text/javascript"></script>
@@ -39,10 +40,9 @@ arrayOfData = new Array(
 <script language="javascript" src="http://www.jtricks.com/download-script/navigation/floating-1.8.js" type="text/javascript"></script>
 
 </head>
-
 <body>
 
-<div id="container">
+<section>
 	<div class="container">
 		<div class="row">
 			<header class="span12">
@@ -51,11 +51,9 @@ arrayOfData = new Array(
 		</div>
 	</div>
 
-
 	<div id="main">
 		<?= $yield; ?>
 	</div>
-
 
 	<footer class="container">
 		<div class="row">
@@ -64,9 +62,7 @@ arrayOfData = new Array(
 			</div>
 		</div>
 	</footer>
-      
-</div> <!--! end of #container -->
-
+</section> <!--!end of section -->
 
 <!-- Javascript at the bottom for fast page loading -->
 
