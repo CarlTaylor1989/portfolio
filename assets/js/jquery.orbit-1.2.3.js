@@ -59,7 +59,7 @@
                 	_slideHeight = _slide.height();
                 if(_slideWidth > orbit.width()) {
 	                orbit.add(orbitWrapper).width(_slideWidth);
-	                orbitWidth = orbit.width();	       			
+	                orbitWidth = orbit.width();    			
 	            }
 	            if(_slideHeight > orbit.height()) {
 	                orbit.add(orbitWrapper).height(_slideHeight);

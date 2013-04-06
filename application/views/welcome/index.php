@@ -43,7 +43,7 @@ $portfolio_array = array(
 			      <?php
 			      for($i = 0; $i < count($portfolio_array); $i++){
 			        $a = $portfolio_array;
-			        echo '<div class="content" style="background: #DADDCA;"><div class="main_banner_left"><h4 class="main_banner_title">'.$a[$i]["title"].'</h4><p class="main_banner_para">'.$a[$i]["description"].'</p><br /><p class="main_banner_para"><a href="http://www.'.$a[$i]["url"].'" target="_blank">'.$a[$i]["url"].'</a></p></div></div>';
+			        echo '<div class="content" style="background: #DADDCA;"><div class="main_banner_left"><h4 class="main_banner_title">'.$a[$i]["title"].'</h4><p class="main_banner_para">'.$a[$i]["description"].'<br /><br /><a href="http://www.'.$a[$i]["url"].'" target="_blank">'.$a[$i]["url"].'</a></p></div></div>';
 			      }
 			      ?>
 			      <img src="http://www.zurb.com/playground/playground/jquery-image-slider-plugin/features.jpg" alt="Overflow: Hidden No More" />

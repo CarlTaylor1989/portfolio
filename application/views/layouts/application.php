@@ -17,7 +17,7 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-<link rel="stylesheet" href="assets/less/bootstrap.css">
+<link href="assets/less/bootstrap.css" media="all" type="text/css" rel="stylesheet">
 <link href="tweet/jquery.tweet.css" media="all" type="text/css" rel="stylesheet" />
 <link href="assets/less/instantvalidation.css" media="screen" type="text/css" rel="stylesheet" />
 <link href="assets/css/style.css" media="screen" type="text/css" rel="stylesheet">
@@ -25,6 +25,24 @@
 <script src="assets/js/jquery-1.5.1.min.js" type="text/javascript"></script>
 <script src="assets/js/jquery.orbit-1.2.3.js" type="text/javascript"></script>
 <script src="assets/js/jqBarGraph.1.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+  $('#featured').orbit();
+  $('.orbit-wrapper').click(function(){
+    $('.orbit-wrapper').stop();
+  });
+	$('.orbit-wrapper').hover(function(){
+  	$('.left').fadeIn(); 
+  	$('.right').fadeIn();
+  	$('.timer').fadeIn();
+  },
+  function() {
+    $('.left').fadeOut(); 
+    $('.right').fadeOut();
+    $('.timer').fadeOut();
+  });
+});
+</script>
 <script type="text/javascript">
 arrayOfData = new Array(
      [100,'HTML','#AAC1D5'],
@@ -37,8 +55,6 @@ arrayOfData = new Array(
 <script src="http://james.padolsey.com/demos/plugins/jQuery/autoresize.jquery.js" type="text/javascript"></script>
 <script type="text/javascript" src="assets/js/instantvalidation.js"></script>
 <script language="javascript" src="tweet/jquery.tweet.js" type="text/javascript"></script>
-<script language="javascript" src="http://www.jtricks.com/download-script/navigation/floating-1.8.js" type="text/javascript"></script>
-
 </head>
 <body>
 
@@ -65,6 +81,5 @@ arrayOfData = new Array(
 </section> <!--!end of section -->
 
 <!-- Javascript at the bottom for fast page loading -->
-
 </body>
 </html>
