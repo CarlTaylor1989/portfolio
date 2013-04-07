@@ -26,6 +26,17 @@
 <script src="assets/js/jquery.orbit-1.2.3.js" type="text/javascript"></script>
 <script src="assets/js/jqBarGraph.1.1.min.js" type="text/javascript"></script>
 <script type="text/javascript">
+$(document).ready(function() {
+	$('#skillsDiv').click(function(){
+	    $('#divForGraph').jqBarGraph({ data: arrayOfData, title: 'My Skills', barSpace: 20, width: 620, postfix: '%', speed: 1.5,}); 
+	    $('#skillsDiv').slideUp(400);
+	    $('.skills-graph').fadeIn(1000);
+	});
+	$(".scroll").click(function(event){   
+    	event.preventDefault();
+    	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    });
+});
 $(window).load(function() {
   $('#featured').orbit();
   $('.orbit-wrapper').click(function(){
@@ -48,13 +59,13 @@ arrayOfData = new Array(
      [100,'HTML','#AAC1D5'],
      [100,'CSS','#21456F'],
      [60,'PHP','#7E2828'],
-     [50,'JavaScript/jQuery','#DBA619'],
-     [40,'MySQL','#FFFFFF']
+     [60,'JavaScript/jQuery','#DBA619'],
+     [50,'MySQL','#FFFFFF']
 ); 
 </script>
 <script src="http://james.padolsey.com/demos/plugins/jQuery/autoresize.jquery.js" type="text/javascript"></script>
-<script type="text/javascript" src="assets/js/instantvalidation.js"></script>
-<script language="javascript" src="tweet/jquery.tweet.js" type="text/javascript"></script>
+<script src="assets/js/instantvalidation.js" type="text/javascript"></script>
+<script src="tweet/jquery.tweet.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -75,6 +86,7 @@ arrayOfData = new Array(
 		<div class="row">
 			<div class="span12">
 				FOOTER!!!
+				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 			</div>
 		</div>
 	</footer>

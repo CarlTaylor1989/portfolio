@@ -21,7 +21,15 @@ h4 {
   color: #7e2828;
   margin: 0;
 }
-#main_box {
+h5 {
+  font-family: Contra;
+  font-size: 26px;
+  color: #234874;
+  text-shadow: 0 -1px 1px #000000, 1px 0px 1px #B8CDE7;
+  margin: 20px 0 0 0;
+  line-height: 30px;
+}
+.beige_container {
   background: url(../img/main_top.png) top left repeat-x;
   height: auto;
   background-color: #daddca;
@@ -54,6 +62,94 @@ p.main_banner_para {
   font-size: 14px;
   color: #7e2828;
   margin: 10px 0 0 0;
+}
+p.box_copy {
+font-family: Caudex;
+font-style: italic;
+font-size: 16px;
+color: #a4c0d7;
+line-height: 20px;
+margin: 0;
+padding: 0;
+}
+span#paint_brush {
+  background: url(../img/paint_brush.png) no-repeat;
+  width: 108px;
+  height: 118px;
+  margin: 20px auto 0;
+  display: block;
+}
+span#clock {
+  background: url(../img/clock.png) no-repeat;
+  width: 107px;
+  height: 108px;
+  margin: 20px auto 0;
+  display: block;
+}
+span#contract {
+  background: url(../img/contract.png) no-repeat;
+  width: 116px;
+  height: 118px;
+  margin: 20px auto 0;
+  display: block;
+}
+.btn.btn-skills {
+  font: italic 16px/32px Georgia,Serif;
+  padding: 5px 30px 5px 30px;
+  margin: 0 auto;
+}
+.span12.skills {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#divForGraph { margin-top: 60px!important; }
+ .graphBardivForGraph { -webkit-border-radius: 5px 5px 0px 0px!important;
+border-radius: 5px 5px 0px 0px!important; }
+ .graphLabeldivForGraph, .graphValuedivForGraph { font-family: ContraI; color: grey; font-size: 13px; margin: 5px 0 5px 0; text-shadow: none!important; }
+ #graphHolder4divForGraph { margin: 30px auto 0 auto; font-family: Contra;
+font-size: 26px;
+color: #234874;
+text-shadow: 0 -1px 1px black, 1px 0px 1px #B8CDE7; clear: left;}
+.ff {
+  background-image:-webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1));
+  background-image:-moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1));
+  background-image:-ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1));
+  background-image:-o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1));
+  background-image:linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1));
+  display:inline-block;
+  vertical-align:middle;
+  margin:2px;
+  font:italic 16px/32px Georgia,Serif;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  text-shadow:0px 1px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow:inset 0px -3px 0px rgba(0,0,0,0.1), 0px 3px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow:inset 0px -3px 0px rgba(0,0,0,0.1), 0px 3px 0px rgba(0,0,0,0.1);
+  box-shadow:inset 0px -3px 0px rgba(0,0,0,0.1), 0px 3px 0px rgba(0,0,0,0.1);
+  padding:5px 20px 8px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+
+.ff.red   {background-color:#db3235;}
+
+.ff:hover {
+  background-image:-webkit-linear-gradient(top, rgba(0,0,0,0.05), rgba(0,0,0,0.2));
+  background-image:-moz-linear-gradient(top, rgba(0,0,0,0.05), rgba(0,0,0,0.2));
+  background-image:-ms-linear-gradient(top, rgba(0,0,0,0.05), rgba(0,0,0,0.2));
+  background-image:-o-linear-gradient(top, rgba(0,0,0,0.05), rgba(0,0,0,0.2));
+  background-image:linear-gradient(top, rgba(0,0,0,0.05), rgba(0,0,0,0.2));
+}
+
+.ff:active {
+  position:relative;
+  top:2px;  
+  -webkit-box-shadow:inset 0px -1px 0px rgba(0,0,0,0.1), 0px 2px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow:inset 0px -1px 0px rgba(0,0,0,0.1), 0px 2px 0px rgba(0,0,0,0.1);
+  box-shadow:inset 0px -1px 0px rgba(0,0,0,0.1), 0px 2px 0px rgba(0,0,0,0.1);
 }
 
 /* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
