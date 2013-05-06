@@ -77,21 +77,22 @@ arrayOfData = new Array(
 			</header>
 		</div>
 	</div>
-
 	<div id="main">
 		<?= $yield; ?>
 	</div>
-
-	<footer class="container">
-		<div class="row">
-			<div class="span12">
-				FOOTER!!!
-				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<div id="footer">
+		<footer class="container">
+			<div class="row">
+				<div class="span6">
+					test
+				</div>
+				<div class="span6">
+					test
+				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
+	</div>
 </section> <!--!end of section -->
-
 <!-- Javascript at the bottom for fast page loading -->
 </body>
 </html>

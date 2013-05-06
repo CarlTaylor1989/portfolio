@@ -102,6 +102,11 @@ span#contract {
   text-align: center;
   margin-top: 20px;
 }
+#footer {
+  background: url(../img/footer_bg.png) repeat-x #416582;
+  height: auto;
+  width: 100%;
+}
 
 #divForGraph { margin-top: 60px!important; }
  .graphBardivForGraph { -webkit-border-radius: 5px 5px 0px 0px!important;
